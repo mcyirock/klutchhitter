@@ -19,4 +19,9 @@ public interface SwBoardService {
 	public List<Comment> getCnoList();
 	public void insertReadCnt(int cnt, int no);
 	
+	public List<Swboard> getSwboardList4(int page);
+	public List<Swboard> getSwboardList6();
+	
+	
+	
 }

@@ -14,6 +14,7 @@
     <result column="ARTICLEUSERID" jdbcType="VARCHAR" property="articleuserid" />
     <result column="ARTICLEUSERIP" jdbcType="VARCHAR" property="articleuserip" />
     <result column="articlereadcnt" jdbcType="INTEGER" property="articlereadcnt" />
+    <result column="ARTICLEPICTUREPATH" jdbcType="VARCHAR" property="articlepicturepath" />
   </resultMap>
   <sql id="Example_Where_Clause">
     <!--
@@ -323,6 +324,14 @@
   
   <select id="getSwboardList" resultType="klutch.hitter.com.model.Swboard">
     select * from swboard order by ARTICLENUMBER desc
+  </select>
+  
+  <select id="getSwboardList4" parameterType="java.lang.Integer" resultType="klutch.hitter.com.model.Swboard">
+    select swboard.*, count(cide.comment.cno) cnum from swboard left outer join cide.comment on swboard.ARTICLENUMBER = cide.comment.no group by swboard.ARTICLENUMBER order by ARTICLENUMBER desc limit #{page}, 4;
+  </select>
+  
+  <select id="getSwboardList6" resultType="klutch.hitter.com.model.Swboard">
+    select swboard.*, count(cide.comment.cno) cnum from swboard left outer join cide.comment on swboard.ARTICLENUMBER = cide.comment.no where swboard.articlepicturepath is not null group by swboard.ARTICLENUMBER order by ARTICLENUMBER desc limit 0, 6;
   </select>
   
   <select id="getSwboardListByContent" parameterType="java.lang.String" resultType="klutch.hitter.com.model.Swboard">

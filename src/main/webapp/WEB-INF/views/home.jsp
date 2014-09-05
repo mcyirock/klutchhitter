@@ -1,5 +1,8 @@
-
-
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -406,19 +409,19 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="work-detail">
-                                    <h1>Work Title</h1>
+                                    <h1>단어의 제왕</h1>
                                     <p>
-                                        We believe on our work.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    	Compete for better score. 
                                     </p>
                                     <p>
-                                        We believe on our work.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                        Memorize difficult words with fun.
                                     </p>
                                     <p>
                                         We believe on our work.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                                     </p>
                                     <p><strong>Cleant:</strong> Design_mylife</p>
                                     <p><strong>Skills:</strong> HTMl5 / CSS3 / Bootstrap3</p>
-                                    <p><a href="#" class="btn btn-dark">Visit Project</a></p>
+                                    <p><a href="http://54.199.152.48:8080/kov/" class="btn btn-dark">Visit Project</a></p>
                                 </div>
                             </div>
                         </div><!--testimonials item like paragraph-->
@@ -438,7 +441,7 @@
                                     </p>
                                     <p><strong>Cleant:</strong> Design_mylife</p>
                                     <p><strong>Skills:</strong> HTMl5 / CSS3 / Bootstrap3</p>
-                                    <p><a href="#" class="btn btn-dark">Visit Project</a></p>
+                                    <p><a href="http://54.199.152.48:8080/SB/list" class="btn btn-dark">Visit Project</a></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -698,7 +701,7 @@
         </section><!--fun facts-->
         <div class="cta-3">
             <div class="container text-center">
-                <h3 class=" wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="100ms">Klutch a Beautiful one page parallax theme</h3>
+                <h3 class=" wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="100ms">Klutch a Beautiful one page</h3>
                 <p class=" wow animated fadeInDown"  data-wow-duration="700ms" data-wow-delay="200ms"><a href="#" class="btn btn-border-white btn-lg">Purchase Now</a></p>
             </div>
         </div><!--cta-3-->
@@ -715,141 +718,31 @@
                
                 <div class="divided-50"></div>
                 <div class="row">
+                
+                <c:forEach var="list" items="${bloglist }">
                     <div class="col-sm-4 margin-btm-30 wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="100ms">
                         <div class="item-img-wrap ">
-                            <img src="resources/img/work-8.png" class="img-responsive" alt="workimg">
+                            <img src="../SB/${list.articlepicturepath }" class="img-responsive" alt="workimg">
                             <div class="item-img-overlay">
-                                <a href="resources/img/work-8.png" class="show-image">
+                                <a href="../SB/${list.articlepicturepath }" class="show-image">
                                     <span></span>
                                 </a>
                             </div>
                         </div><!--item image hover-->
                         <div class="blog-desc">
-                            <h3><a href="#">Blog post title</a></h3>
-                            <span>27 August 2014</span>
+                            <h3><a href="#">${list.articlesubject }</a></h3>
+                            <span><fmt:formatDate value="${list.articletime }" pattern="yyyy MM dd"/></span>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                                ${list.articlecontent }
                             </p>
                             <p class="text-right">
-                                <a href="blog-post.html" class="btn btn-dark btn-xs">
+                                <a href="blog" class="btn btn-dark btn-xs">
                                     Read More
                                 </a>
                             </p>
                         </div><!--blog desc-->
                     </div><!--blog post col end-->
-                    <div class="col-sm-4 margin-btm-30 wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="200ms">
-                        <div class="item-img-wrap ">
-                            <img src="resources/img/work-7.png" class="img-responsive" alt="workimg">
-                            <div class="item-img-overlay">
-                                <a href="resources/img/work-7.png" class="show-image">
-                                    <span></span>
-                                </a>
-                            </div>
-                        </div><!--item image hover-->
-                        <div class="blog-desc">
-                            <h3><a href="#">Blog post title</a></h3>
-                            <span>27 August 2014</span>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                            </p>
-                            <p class="text-right">
-                                <a href="blog-post.html" class="btn btn-dark btn-xs">
-                                    Read More
-                                </a>
-                            </p>
-                        </div><!--blog desc-->
-                    </div><!--blog post col end-->
-                    <div class="col-sm-4 margin-btm-30 wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="300ms">
-                        <div class="item-img-wrap ">
-                            <img src="resources/img/work-6.png" class="img-responsive" alt="workimg">
-                            <div class="item-img-overlay">
-                                <a href="resources/img/work-6.png" class="show-image">
-                                    <span></span>
-                                </a>
-                            </div>
-                        </div><!--item image hover-->
-                        <div class="blog-desc">
-                            <h3><a href="#">Blog post title</a></h3>
-                            <span>27 August 2014</span>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                            </p>
-                            <p class="text-right">
-                                <a href="blog-post.html" class="btn btn-dark btn-xs">
-                                    Read More
-                                </a>
-                            </p>
-                        </div><!--blog desc-->
-                    </div><!--blog post col end-->
-                </div><!--blog post row-->
-                <div class="divided-50"></div>
-                <div class="row">
-                    <div class="col-sm-4 margin-btm-30 wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="400ms">
-                        <div class="item-img-wrap ">
-                            <img src="resources/img/work-3.png" class="img-responsive" alt="workimg">
-                            <div class="item-img-overlay">
-                                <a href="resources/img/work-3.png" class="show-image">
-                                    <span></span>
-                                </a>
-                            </div>
-                        </div><!--item image hover-->
-                        <div class="blog-desc">
-                            <h3><a href="#">Blog post title</a></h3>
-                            <span>27 August 2014</span>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                            </p>
-                            <p class="text-right">
-                                <a href="blog-post.html" class="btn btn-dark btn-xs">
-                                    Read More
-                                </a>
-                            </p>
-                        </div><!--blog desc-->
-                    </div><!--blog post col end-->
-                    <div class="col-sm-4 margin-btm-30 wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="500ms">
-                        <div class="item-img-wrap ">
-                            <img src="resources/img/work-2.png" class="img-responsive" alt="workimg">
-                            <div class="item-img-overlay">
-                                <a href="resources/img/work-2.png" class="show-image">
-                                    <span></span>
-                                </a>
-                            </div>
-                        </div><!--item image hover-->
-                        <div class="blog-desc">
-                            <h3><a href="#">Blog post title</a></h3>
-                            <span>27 August 2014</span>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                            </p>
-                            <p class="text-right">
-                                <a href="blog-post.html" class="btn btn-dark btn-xs">
-                                    Read More
-                                </a>
-                            </p>
-                        </div><!--blog desc-->
-                    </div><!--blog post col end-->
-                    <div class="col-sm-4 margin-btm-30 wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="600ms">
-                        <div class="item-img-wrap ">
-                            <img src="resources/img/work-1.png" class="img-responsive" alt="workimg">
-                            <div class="item-img-overlay">
-                                <a href="resources/img/work-1.png" class="show-image">
-                                    <span></span>
-                                </a>
-                            </div>
-                        </div><!--item image hover-->
-                        <div class="blog-desc">
-                            <h3><a href="#">Blog post title</a></h3>
-                            <span>27 August 2014</span>
-                            <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                            </p>
-                            <p class="text-right">
-                                <a href="blog-post.html" class="btn btn-dark btn-xs">
-                                    Read More
-                                </a>
-                            </p>
-                        </div><!--blog desc-->
-                    </div><!--blog post col end-->
+                    </c:forEach>
                 </div><!--blog post row-->
             </div>
         </section><!--blog section end-->

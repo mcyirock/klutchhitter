@@ -13,6 +13,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * Handles requests for the application home page.
@@ -39,11 +40,13 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
+		model.addAttribute("bloglist", swb.getSwboardList6());
+		
 		return "home";
 	}
 	
 	@RequestMapping(value = "/blog", method = RequestMethod.GET)
-	public String blog(Locale locale, Model model) {
+	public String blog(Locale locale, Model model, @RequestParam(value = "page", required = false, defaultValue = "0")int page) {
 		logger.info("Welcome blog! The client locale is {}.", locale);
 		
 		Date date = new Date();
@@ -52,9 +55,16 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
+		if(page<=0){
+			//마이너스 페이지로 가면 안되!
+			page=0;
+		}
 		
 		//글 가지고 오기
-		model.addAttribute("list",swb.getSwboardList());
+		model.addAttribute("list",swb.getSwboardList4(page));
+		
+		
+		model.addAttribute("page", page);
 		
 		
 		return "blog";

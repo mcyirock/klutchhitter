@@ -72,4 +72,14 @@ public class SwBoardServiceImpl implements SwBoardService{
 		swboardMapper.insertReadCnt(cnt, no);
 	}
 
+	@Override
+	public List<Swboard> getSwboardList4(int page) {
+		return swboardMapper.getSwboardList4(page);
+	}
+	
+	@Override
+	public List<Swboard> getSwboardList6() {
+		return swboardMapper.getSwboardList6();
+	}
+
 }

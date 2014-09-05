@@ -92,32 +92,38 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-9">
+                    <c:forEach var="list" items="${list }">
                         <div class="blog-post-wrap">
                             <div class="row">
                                 <div class="col-sm-2 margin-btm-30 hidden-xs">
                                     <div class="post-date   text-right">
-                                        <h2>27</h2>
-                                        <span>Aug 2014</span>
+                                        <h2><fmt:formatDate value="${list.articletime}" pattern="dd"/></h2>
+                                        <span><fmt:formatDate value="${list.articletime}" pattern="yyyy MM"/></span>
                                     </div>
                                     <div class="post-left-info">
-                                        <p><i class="fa fa-user"></i> <a href="#">Author</a></p>
-                                        <p><i class="fa fa-tag"></i> <a href="#">Sports</a></p>
-                                        <p><i class="fa fa-comment"></i> <a href="#">3 Comments</a></p>
+                                        <p><i class="fa fa-user"></i> <a href="#">${list.articleuserid }</a></p>
+                                        <p><i class="fa fa-tag"></i> <a href="#">Tag</a></p>
+                                        <p><i class="fa fa-comment"></i> <a href="#">${list.cnum} Comments</a></p>
                                     </div>
                                 </div>
                                 <div class="col-sm-10">
                                     <div class="blog-post-info">
                                         <a href="#">
-                                            <img src="resources/img/blog-1.jpg" class="img-responsive" alt="">
+                                            <c:if test="${list.articlepicturepath eq null }">
+                                            <img src="resources/img/blog-1.jpg" class="img-responsive" alt=""/>
+                                            </c:if>
+                                            <c:if test="${list.articlepicturepath ne null }">
+                                            <img src="../SB/${list.articlepicturepath }" class="img-responsive"/>
+                                            </c:if>
                                         </a>
-                                        <h3><a href="#">Reading news in free time</a></h3>
+                                        <h3><a href="#">${list.articlesubject}</a></h3>
                                         <ul class="list-inline xs-post-info visible-xs">
-                                            <li><i class="fa fa-user"></i> <a href="#">Author</a></li>
-                                            <li><i class="fa fa-tag"></i> <a href="#">Sports</a></li>
-                                            <li><i class="fa fa-comment"></i> <a href="#">3 Comments</a></li>
+                                            <li><i class="fa fa-user"></i> <a href="#">${list.articleuserid }</a></li>
+                                            <li><i class="fa fa-tag"></i> <a href="#">Tag</a></li>
+                                            <li><i class="fa fa-comment"></i> <a href="#">${list.cnum} Comments</a></li>
                                         </ul>
                                         <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                            ${list.articlecontent }
                                         </p>
                                         <p class="text-right">
                                             <a href="blogPost" class="btn btn-dark btn-sm">
@@ -128,163 +134,12 @@
                                 </div>
                             </div>
                         </div><!--blog post wrap-->
-                        <div class="blog-post-wrap">
-                            <div class="row">
-                                <div class="col-sm-2 margin-btm-30 hidden-xs">
-                                    <div class="post-date   text-right">
-                                        <h2>27</h2>
-                                        <span>Aug 2014</span>
-                                    </div>
-                                    <div class="post-left-info">
-                                        <p><i class="fa fa-user"></i> <a href="#">Author</a></p>
-                                        <p><i class="fa fa-tag"></i> <a href="#">Sports</a></p>
-                                        <p><i class="fa fa-comment"></i> <a href="#">3 Comments</a></p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-10">
-                                    <div class="blog-post-info">
-                                        <a href="#">
-                                            <img src="resources/img/blog-2.jpg" class="img-responsive" alt="">
-                                        </a>
-                                        <h3><a href="#">Lorem ipsum dollor sit amet</a></h3>
-                                        <ul class="list-inline xs-post-info visible-xs">
-                                            <li><i class="fa fa-user"></i> <a href="#">Author</a></li>
-                                            <li><i class="fa fa-tag"></i> <a href="#">Sports</a></li>
-                                            <li><i class="fa fa-comment"></i> <a href="#">3 Comments</a></li>
-                                        </ul>
-                                        <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                                        </p>
-                                        <p class="text-right">
-                                            <a href="blogPost" class="btn btn-dark btn-sm">
-                                                Read more
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--blog post wrap-->
-                        <div class="blog-post-wrap">
-                            <div class="row">
-                                <div class="col-sm-2 margin-btm-30 hidden-xs">
-                                    <div class="post-date  text-right">
-                                        <h2>27</h2>
-                                        <span>Aug 2014</span>
-                                    </div>
-                                    <div class="post-left-info">
-                                        <p><i class="fa fa-user"></i> <a href="#">Author</a></p>
-                                        <p><i class="fa fa-tag"></i> <a href="#">Sports</a></p>
-                                        <p><i class="fa fa-comment"></i> <a href="#">3 Comments</a></p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-10">
-                                    <div class="blog-post-info">
-                                        <div class="embed-responsive embed-responsive-16by9">
-                                            <iframe src="http://player.vimeo.com/video/57175742"></iframe>
-                                        </div>
-                                        <h3><a href="#">Video post formate</a></h3>
-                                        <ul class="list-inline xs-post-info visible-xs">
-                                            <li><i class="fa fa-user"></i> <a href="#">Author</a></li>
-                                            <li><i class="fa fa-tag"></i> <a href="#">Sports</a></li>
-                                            <li><i class="fa fa-comment"></i> <a href="#">3 Comments</a></li>
-                                        </ul>
-                                        <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                                        </p>
-                                        <p class="text-right">
-                                            <a href="blogPost" class="btn btn-dark btn-sm">
-                                                Read more
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--blog post wrap-->
-                        <div class="blog-post-wrap">
-                            <div class="row">
-                                <div class="col-sm-2 margin-btm-30 hidden-xs">
-                                    <div class="post-date  text-right">
-                                        <h2>27</h2>
-                                        <span>Aug 2014</span>
-                                    </div>
-                                    <div class="post-left-info">
-                                        <p><i class="fa fa-user"></i> <a href="#">Author</a></p>
-                                        <p><i class="fa fa-tag"></i> <a href="#">Sports</a></p>
-                                        <p><i class="fa fa-comment"></i> <a href="#">3 Comments</a></p>
-                                    </div>
-                                </div>
-                                <div class="col-sm-10">
-                                    <div class="blog-post-info">
-                                        <iframe height="170" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/62974792&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>
-                                        <h3><a href="#">Audio post formate</a></h3>
-                                        <ul class="list-inline xs-post-info visible-xs">
-                                            <li><i class="fa fa-user"></i> <a href="#">Author</a></li>
-                                            <li><i class="fa fa-tag"></i> <a href="#">Sports</a></li>
-                                            <li><i class="fa fa-comment"></i> <a href="#">3 Comments</a></li>
-                                        </ul>
-                                        <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                                        </p>
-                                        <p class="text-right">
-                                            <a href="blogPost" class="btn btn-dark btn-sm">
-                                                Read more
-                                            </a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!--blog post wrap-->
+                    </c:forEach>
                         <ul class="pager">
-  <li><a href="#">Previous Page</a></li>
-  <li><a href="#">Next Page</a></li>
+  <li><a href="blog?page=${page-4 }">Previous Page</a></li>
+  <li><a href="blog?page=${page+4 }">Next Page</a></li>
 </ul>
-<table class="table table-hover">
-		<tr>
-			<th>글번호</th>
-			<th>조회수</th>
-			<th>제목</th>
-			<th>글쓴이</th>
-			<th>작성일</th>
-		</tr>
-		<c:if test ="${empty list}">
-		<tr>
-			<td></td>
-			<td>글이 없습니다.</td>
-			<td></td>
-		</tr>
-		</c:if>
-		<c:forEach var="list" items="${list }">
-			<tr>
-				<td>${list.articlenumber }</td>
-				<td>${list.articlereadcnt}</td>
-				<td><a href='readArticle?num=${list.articlenumber}'>${list.articlesubject }
-				</a>
-				
-				<c:if test="${list.articlereadcnt > 20}">
-				<span class="label label-danger">Hot</span>
-				</c:if>
-				 
-				<fmt:formatDate value="${list.articletime}" pattern="yy-MM-dd" var="createdDate"/>
-				<fmt:formatDate value="${now }" pattern="yy-MM-dd" var="nowDate"/>
-				<c:if test="${createdDate eq nowDate }">
-				<span class="label label-warning">New</span>
-				</c:if>
-				<c:forEach var="cnoList" items="${cnoList }">
-				<c:if test="${cnoList.no eq list.articlenumber }">
-				<span class="badge">${cnoList.cno }</span>
-				</c:if>
-				</c:forEach>
-				</td>
-				<td>${list.articleuserid }</td>
-				<td>
-				
-				<fmt:formatDate value="${list.articletime}" pattern="mm:hh yy-MM-dd"/>
-				</td>
-			</tr>
-		</c:forEach>
-		
-			
-			</table>
+
                     </div><!--blog-post col-->
                     <div class="col-sm-3">
                         <div class="post-sidebar-box">
@@ -294,9 +149,15 @@
                             </form>
                         </div><!--sidebar box-->
                         <div class="post-sidebar-box">
-                            <h4>Text</h4>
+                            <h4>Me?</h4>
                             <p>
-                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
+                                A Software engineer<br/>
+                                An English teacher<br/>
+                                An Automotive technician<br/>
+                                in Seoul<br/>
+                                been in Toronto<br/>
+                           		been in Tokyo<br/>
+                           		been in Vancouver
                             </p>
                         </div>
                         <div class="sidebar-box margin40">

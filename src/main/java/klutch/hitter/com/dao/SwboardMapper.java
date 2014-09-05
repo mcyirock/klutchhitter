@@ -85,7 +85,11 @@ public interface SwboardMapper {
     List<Swboard> getSwboardListBySubject(String search);
     List<Swboard> getSwboardListByContent(String search);
     List<Swboard> getSwboardListByUserid(String search);
+    
     List<Comment> getCnoList();
     void insertReadCnt(@Param("cnt")int cnt,@Param("no") int no);
+    
+    List<Swboard> getSwboardList4(int page);
+    List<Swboard> getSwboardList6();
     
 }
