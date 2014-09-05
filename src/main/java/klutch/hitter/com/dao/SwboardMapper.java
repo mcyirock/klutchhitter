@@ -4,6 +4,7 @@ package klutch.hitter.com.dao;
 import java.util.List;
 
 import klutch.hitter.com.model.Comment;
+import klutch.hitter.com.model.HomeMessage;
 import klutch.hitter.com.model.Swboard;
 import klutch.hitter.com.model.SwboardExample;
 
@@ -91,5 +92,7 @@ public interface SwboardMapper {
     
     List<Swboard> getSwboardList4(int page);
     List<Swboard> getSwboardList6();
+    
+    int insertHomeMessage(HomeMessage vo);
     
 }

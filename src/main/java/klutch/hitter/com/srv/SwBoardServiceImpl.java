@@ -4,6 +4,7 @@ import java.util.List;
 
 import klutch.hitter.com.dao.SwboardMapper;
 import klutch.hitter.com.model.Comment;
+import klutch.hitter.com.model.HomeMessage;
 import klutch.hitter.com.model.Swboard;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -80,6 +81,11 @@ public class SwBoardServiceImpl implements SwBoardService{
 	@Override
 	public List<Swboard> getSwboardList6() {
 		return swboardMapper.getSwboardList6();
+	}
+
+	@Override
+	public int insertHomeMessage(HomeMessage vo) {
+		return swboardMapper.insertHomeMessage(vo);
 	}
 
 }

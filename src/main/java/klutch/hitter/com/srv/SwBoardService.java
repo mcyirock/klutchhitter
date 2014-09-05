@@ -2,6 +2,7 @@ package klutch.hitter.com.srv;
 import java.util.List;
 
 import klutch.hitter.com.model.Comment;
+import klutch.hitter.com.model.HomeMessage;
 import klutch.hitter.com.model.Swboard;
 
 
@@ -21,6 +22,8 @@ public interface SwBoardService {
 	
 	public List<Swboard> getSwboardList4(int page);
 	public List<Swboard> getSwboardList6();
+	
+	public int insertHomeMessage(HomeMessage vo);
 	
 	
 	

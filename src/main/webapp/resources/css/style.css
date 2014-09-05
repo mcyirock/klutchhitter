@@ -12,7 +12,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', 'Jeju Gothic' , serif;
     color:#333;
     font-size: 14px;
     line-height: 24px;
@@ -850,4 +850,18 @@ h3.heading-progress {
     color:#fff;
     font-weight: 300;
     margin-bottom: 0px;
+}
+
+/*
+ * Jeju Gothic (Korean) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Jeju Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/jejugothic/v3/JejuGothic-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/jejugothic/v3/JejuGothic-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/jejugothic/v3/JejuGothic-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/jejugothic/v3/JejuGothic-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/jejugothic/v3/JejuGothic-Regular.ttf) format('truetype');
 }

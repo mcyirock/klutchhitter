@@ -79,7 +79,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html">Klutch</a>
+                        <a class="navbar-brand" href="home">Klutch</a>
                     </div>
                     <div class="navbar-collapse collapse">
 
@@ -103,7 +103,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="center-heading text-center">
-                            <h2>About us</h2>
+                            <h2>About me</h2>
                             <span class="icon"><i class="fa fa-user"></i></span> 
                         </div><!--center heading-->
                     </div>
@@ -111,7 +111,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
                         <p class="lead margin-btm-30">
-                            We are a creative agency located in Usa.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            I am a software engineer, a father with a lovely wife and a daughter. Love this industry, love people, love Music, love pets, and love Life.
                         </p>
                     </div>
                 </div>
@@ -192,62 +192,32 @@
                     <div class="col-sm-3">
                         <div class="team-col wow animated fadeInLeft"  data-wow-duration="700ms" data-wow-delay="100ms">
                             <img src="resources/img/team-1.jpg" alt="">
-                            <h4>Jenelia</h4>
-                            <span>Founder</span>
+                            <h4>Kay</h4>
+                            <span>Developer</span>
                         </div>
                     </div><!--team col-->
                     <div class="col-sm-3">
                         <div class="team-col wow animated fadeInLeft"  data-wow-duration="700ms" data-wow-delay="200ms">
                             <img src="resources/img/team-2.jpg" alt="">
-                            <h4>Smith</h4>
+                            <h4>Victoria</h4>
                             <span>Manager</span>
                         </div>
                     </div><!--team col-->
                     <div class="col-sm-3">
                         <div class="team-col wow animated fadeInLeft"  data-wow-duration="700ms" data-wow-delay="300ms">
                             <img src="resources/img/team-3.jpg" alt="">
-                            <h4>Peter</h4>
-                            <span>Developer</span>
+                            <h4>S.W.</h4>
+                            <span>Daughter</span>
                         </div>
                     </div><!--team col-->
                     <div class="col-sm-3">
                         <div class="team-col wow animated fadeInLeft"  data-wow-duration="700ms" data-wow-delay="400ms">
                             <img src="resources/img/team-4.jpg" alt="">
-                            <h4>John</h4>
-                            <span>Seo</span>
+                            <h4>Louie</h4>
+                            <span>Dog</span>
                         </div>
                     </div><!--team col-->
                 </div><div class="divided-50"></div>
-                <div class="row">
-                    <div class="col-sm-3">
-                        <div class="team-col wow animated fadeInLeft"  data-wow-duration="700ms" data-wow-delay="500ms">
-                            <img src="resources/img/team-5.jpg" alt="">
-                            <h4>Ram</h4>
-                            <span>Designer</span>
-                        </div>
-                    </div><!--team col-->
-                    <div class="col-sm-3">
-                        <div class="team-col wow animated fadeInLeft"  data-wow-duration="700ms" data-wow-delay="600ms">
-                            <img src="resources/img/team-6.jpg" alt="">
-                            <h4>Hardik</h4>
-                            <span>Graphics</span>
-                        </div>
-                    </div><!--team col-->
-                    <div class="col-sm-3">
-                        <div class="team-col wow animated fadeInLeft"  data-wow-duration="700ms" data-wow-delay="700ms">
-                            <img src="resources/img/team-7.jpg" alt="">
-                            <h4>Madhukar</h4>
-                            <span>E-Commerce</span>
-                        </div>
-                    </div><!--team col-->
-                    <div class="col-sm-3">
-                        <div class="team-col wow animated fadeInLeft"  data-wow-duration="700ms" data-wow-delay="800ms">
-                            <img src="resources/img/team-8.jpg" alt="">
-                            <h4>Steve</h4>
-                            <span>HR</span>
-                        </div>
-                    </div><!--team col-->
-                </div>
             </div>
         </section><!--team-->
         <section class="parallax testimonials bg-heading" data-stellar-background-ratio="0.5">
@@ -293,7 +263,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <a href="#contact" class="btn btn-lg btn-border-white wow animated slideInLeft"  data-wow-duration="700ms" data-wow-delay="100ms">Hire us Now</a>
+                        <a href="#contact" class="btn btn-lg btn-border-white wow animated slideInLeft"  data-wow-duration="700ms" data-wow-delay="100ms">Contact?</a>
                     </div>
                 </div>
             </div>
@@ -388,7 +358,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="center-heading text-center">
-                            <h2 class=" wow animated bounceIn"  data-wow-duration="700ms" data-wow-delay="100ms">Our Portfolio</h2>
+                            <h2 class=" wow animated bounceIn"  data-wow-duration="700ms" data-wow-delay="100ms">Portfolio</h2>
                             <span class="icon"><i class="fa fa-image"></i></span> 
                         </div><!--center heading-->
                     </div>
@@ -396,7 +366,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center">
                         <p class="lead margin-btm-30">
-                            We believe on our work.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            Something that I have done. I've had so much fun doing them. I hope you would enjoy them, too.
                         </p>
                     </div>
                 </div>
@@ -429,7 +399,7 @@
 
                             <div class="col-md-6 margin-btm-30">
                                 <div class="work-detail">
-                                    <h1>Work Title</h1>
+                                    <h1>Swboard</h1>
                                     <p>
                                         We believe on our work.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                                     </p>
@@ -454,7 +424,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="work-detail">
-                                    <h1>Work Title</h1>
+                                    <h1>Kboard</h1>
                                     <p>
                                         We believe on our work.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                                     </p>
@@ -466,7 +436,7 @@
                                     </p>
                                     <p><strong>Cleant:</strong> Design_mylife</p>
                                     <p><strong>Skills:</strong> HTMl5 / CSS3 / Bootstrap3</p>
-                                    <p><a href="#" class="btn btn-dark">Visit Project</a></p>
+                                    <p><a href="http://54.199.152.48:8080/kb/list" class="btn btn-dark">Visit Project</a></p>
                                 </div>
                             </div>
                         </div><!--testimonials item like paragraph-->                     
@@ -596,85 +566,7 @@
                 </div><!--.row-->
             </div>
         </section><!--work-->
-        <section id="pricing" class="section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="center-heading text-center">
-                            <h2 class=" wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="100ms">Our Pricing</h2>
-                            <span class="icon"><i class="fa fa-table"></i></span> 
-                        </div><!--center heading-->
-                    </div>
-                </div><!--center heading-->
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 margin-btm-30 text-center">
-                        <p class="lead wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="200ms">
-                            you decide your price, choose a plan from the options.Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                        </p>
-                    </div>
-                </div>
-                <div class="divided-50"></div>
-                <div class="row">
-                    <div class="col-md-4 margin-btm-30">
-                        <div class="plan-wrap wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="400ms">
-                            <div class="price-title">
-                                <h4>Basic</h4>
-                            </div><!--plan title-->
-                            <div class="plan-price">
-                                <h2><span>$</span>9.99 <span>P/M</span></h2>
-                            </div><!--plan price-->
-                            <ul class="plan-features list-unstyled">
-                                <li><i class="fa fa-check"></i> 5 Team Members</li>
-                                <li><i class="fa fa-check"></i> 10 MySql database</li>
-                                <li><i class="fa fa-check"></i> 100 GB Bandwith</li>
-                                <li><i class="fa fa-check"></i> 10 GB Storage</li>
-                            </ul><!--features-->
-                            <div class="plan-link">
-                                <a href="#" class="btn btn-dark btn-lg">Choose Plan</a>
-                            </div><!--plan link-->
-                        </div><!--plan wrap-->
-                    </div><!--plan col-->
-                    <div class="col-md-4 margin-btm-30">
-                        <div class="plan-wrap popular wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="500ms">
-                            <div class="price-title">
-                                <h4>Pro</h4>
-                            </div><!--plan title-->
-                            <div class="plan-price">
-                                <h2><span>$</span>29.99 <span>P/M</span></h2>
-                            </div><!--plan price-->
-                            <ul class="plan-features list-unstyled">
-                                <li><i class="fa fa-check"></i> 25 Team Members</li>
-                                <li><i class="fa fa-check"></i> 50 MySql database</li>
-                                <li><i class="fa fa-check"></i> 500 GB Bandwith</li>
-                                <li><i class="fa fa-check"></i> 50 GB Storage</li>
-                            </ul><!--features-->
-                            <div class="plan-link">
-                                <a href="#" class="btn btn-theme btn-lg">Choose Plan</a>
-                            </div><!--plan link-->
-                        </div><!--plan wrap-->
-                    </div><!--plan col-->
-                    <div class="col-md-4 margin-btm-30">
-                        <div class="plan-wrap wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="600ms">
-                            <div class="price-title">
-                                <h4>Business</h4>
-                            </div><!--plan title-->
-                            <div class="plan-price">
-                                <h2><span>$</span>99.99 <span>P/M</span></h2>
-                            </div><!--plan price-->
-                            <ul class="plan-features list-unstyled">
-                                <li><i class="fa fa-check"></i> Unlimited Team Members</li>
-                                <li><i class="fa fa-check"></i> Unlimited MySql database</li>
-                                <li><i class="fa fa-check"></i> 50 Tb Bandwith</li>
-                                <li><i class="fa fa-check"></i> Unlimited GB Storage</li>
-                            </ul><!--features-->
-                            <div class="plan-link">
-                                <a href="#" class="btn btn-dark btn-lg">Choose Plan</a>
-                            </div><!--plan link-->
-                        </div><!--plan wrap-->
-                    </div><!--plan col-->
-                </div>
-            </div>
-        </section><!--price end-->
+       
         <section class="fun-facts parallax" data-stellar-background-ratio="0.5">
             <div class="container">
                 <div class="row">
@@ -701,8 +593,8 @@
         </section><!--fun facts-->
         <div class="cta-3">
             <div class="container text-center">
-                <h3 class=" wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="100ms">Klutch a Beautiful one page</h3>
-                <p class=" wow animated fadeInDown"  data-wow-duration="700ms" data-wow-delay="200ms"><a href="#" class="btn btn-border-white btn-lg">Purchase Now</a></p>
+                <h3 class=" wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="100ms">Klutch is going to be Big</h3>
+                <p class=" wow animated fadeInDown"  data-wow-duration="700ms" data-wow-delay="200ms"><a href="#" class="btn btn-border-white btn-lg">UP</a></p>
             </div>
         </div><!--cta-3-->
         <section id="blog" class="section-padding">
@@ -733,7 +625,13 @@
                             <h3><a href="#">${list.articlesubject }</a></h3>
                             <span><fmt:formatDate value="${list.articletime }" pattern="yyyy MM dd"/></span>
                             <p>
-                                ${list.articlecontent }
+                                <%
+												pageContext.setAttribute("enter", "\r\n");
+												pageContext.setAttribute("space", "\u0020");
+								%>
+                                        	<c:set var="string1" value="${fn:replace(list.articlecontent,enter,'<br/>')}"/>
+                                        	<c:set var="string2" value="${fn:replace(string1,space,'&nbsp;')}"/>
+                                            ${string2 }
                             </p>
                             <p class="text-right">
                                 <a href="blog" class="btn btn-dark btn-xs">
@@ -765,25 +663,25 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <p class="lead">
-                            We are ready to start your project? Give us a call or drop us a line.
+                            Got anything to talk about? Give me a call or drop us a line.
                         </p>
                     </div>
                 </div>
                 <div class="divided-50"></div>
                 <div class="row contact-form">    
                     <div class="col-md-7 wow animated fadeInUp margin-btm-30"  data-wow-duration="700ms" data-wow-delay="300ms">
-                        <form role="form">
+                        <form role="form" action="homeMessage" method="post">
                             <div class="form-group">
                                 <label for="name">Name</label>
-                                <input type="email" class="form-control" id="name" required="">
+                                <input type="text" class="form-control" id="name" name="name" required="true">
                             </div>
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input type="password" class="form-control" id="email" required="">
+                                <input type="text" class="form-control" id="email" name="email" required="true">
                             </div>
                             <div class="form-group">
                                 <label for="message">Message</label>
-                                <textarea class="form-control" rows="7" id="message" required=""></textarea>
+                                <textarea class="form-control" rows="7" id="message" name="content" required="true"></textarea>
                             </div> <div class="clearfix"></div>                     
                             <p class="text-right">
                                 <button type="submit" class="btn btn-theme btn-lg">Send Message</button>
@@ -792,11 +690,11 @@
                     </div><!--form col-->
                     <div class="col-md-5">
                            <div class=" margin-btm-30 address-info wow animated bounceIn"  data-wow-duration="700ms" data-wow-delay="200ms">
-                        <h3>Our Office</h3>
-                        <p><i class="fa fa-map-marker"></i> Address: 302012 Jaipur Name, City Name</p>
-                        <p><i class="fa fa-phone"></i> Phone: (141) 456-7890</p>
-                        <p><i class="fa fa-envelope"></i> Email: support@Klutch.com</p>
-                        <p><strong>Monday - Friday : </strong> 9:30 Am - 5:30 Pm</p>
+                        <h3>Office</h3>
+                        <p><i class="fa fa-map-marker"></i> Address: Seoul, Korea</p>
+                        <p><i class="fa fa-phone"></i> Phone: (010) 1234-1234</p>
+                        <p><i class="fa fa-envelope"></i> Email: klutchhitter@gmail.com</p>
+                        <p><strong>Monday - Friday : </strong> 11:00 Am - 4:00 Pm</p>
                         <p><strong>Saturday - Sunday: </strong> Closed</p>
                     </div>
                         <div class=" address-info wow animated bounceIn"  data-wow-duration="700ms" data-wow-delay="400ms">

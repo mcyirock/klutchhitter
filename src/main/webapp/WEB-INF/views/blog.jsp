@@ -68,7 +68,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html">Klutch</a>
+                        <a class="navbar-brand" href="home">Klutch</a>
                     </div>
                     <div class="navbar-collapse collapse">
 
@@ -123,7 +123,13 @@
                                             <li><i class="fa fa-comment"></i> <a href="#">${list.cnum} Comments</a></li>
                                         </ul>
                                         <p>
-                                            ${list.articlecontent }
+                                        	<%
+												pageContext.setAttribute("enter", "\r\n");
+												pageContext.setAttribute("space", "\u0020");
+											%>
+                                        	<c:set var="string1" value="${fn:replace(list.articlecontent,enter,'<br/>')}"/>
+                                        	<c:set var="string2" value="${fn:replace(string1,space,'&nbsp;')}"/>
+                                            ${string2 }
                                         </p>
                                         <p class="text-right">
                                             <a href="blogPost" class="btn btn-dark btn-sm">

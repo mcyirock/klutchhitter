@@ -16,6 +16,15 @@
     <result column="articlereadcnt" jdbcType="INTEGER" property="articlereadcnt" />
     <result column="ARTICLEPICTUREPATH" jdbcType="VARCHAR" property="articlepicturepath" />
   </resultMap>
+  
+  <resultMap id="HomeMessageMap" type="klutch.hitter.com.model.HomeMessage">
+  	<id column="SEQ" jdbcType="INTEGER" property="seq"/>
+  	<result column="CONTENT" jdbcType="VARCHAR" property="content"/>
+  	<result column="NAME" jdbcType="VARCHAR" property="name"/>
+  	<result column="EMAIL" jdbcType="VARCHAR" property="email"/>
+  	<result column="REGDATE" jdbcType="TIMESTAMP" property="regDate"/>
+  	<result column="IP" jdbcType="VARCHAR" property="ip"/>
+  </resultMap>
   <sql id="Example_Where_Clause">
     <!--
       WARNING - @mbggenerated
@@ -351,4 +360,48 @@
   <update id="insertReadCnt" parameterType="map">
   	update swboard set articlereadcnt = #{cnt} where ARTICLENUMBER = #{no}
   </update>
+  
+  <insert id="insertHomeMessage" parameterType="klutch.hitter.com.model.HomeMessage">
+  	insert into homemessage
+  	<trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="seq != null">
+        SEQ,
+      </if>
+      <if test="content != null">
+        CONTENT,
+      </if>
+      <if test="name != null">
+        NAME,
+      </if>
+      <if test="email != null">
+        EMAIL,
+      </if>
+      <if test="regDate != null">
+        REGDATE,
+      </if>
+      <if test="ip != null">
+        IP,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="seq != null">
+        #{seq,jdbcType=INTEGER},
+      </if>
+      <if test="content != null">
+        #{content,jdbcType=VARCHAR},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null">
+        #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="regDate != null">
+        #{regDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="ip != null">
+        #{ip,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
 </mapper>
