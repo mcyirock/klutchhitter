@@ -396,6 +396,28 @@
                             </div>
                         </div><!--testimonials item like paragraph-->
                         <div>
+                            <div class="col-md-6 margin-btm-30">
+                                <img src="resources/img/work-4.png" class="img-responsive" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="work-detail">
+                                    <h1>루이를 찾아라.</h1>
+                                    <p>
+                                    	루이를 찾으세요.
+                                    </p>
+                                    <p>
+                                        루이를 찾으면 당신은 패자 입니다.
+                                    </p>
+                                    <p>
+                                        We believe on our work.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    </p>
+                                    <p><strong>Cleant:</strong> Design_mylife</p>
+                                    <p><strong>Skills:</strong> HTMl5 / CSS3 / Bootstrap3</p>
+                                    <p><a href="findLouie" class="btn btn-dark">Visit Project</a></p>
+                                </div>
+                            </div>
+                        </div><!--testimonials item like paragraph-->
+                        <div>
 
                             <div class="col-md-6 margin-btm-30">
                                 <div class="work-detail">
