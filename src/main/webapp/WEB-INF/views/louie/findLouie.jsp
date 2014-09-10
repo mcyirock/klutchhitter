@@ -18,7 +18,7 @@
 <c:forEach var="qList" items="${qList}" varStatus="vs">
 <c:if test="${qList==0 || qList==1}">
 	<a href="pickLouie?a=${vs.index }">
-	<div class="col-md-4" style="background-color: #5bc0de; text-align:center;">
+	<div class="col-xs-6 col-md-4" style="background-color: #5bc0de; text-align:center;">
 	<br/><br/><br/>
 	<h1><span class="glyphicon glyphicon-star"></span> Louie ${vs.count }</h1>
 	<br/><br/><br/>
