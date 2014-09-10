@@ -26,7 +26,7 @@
 	</a>
 </c:if>
 <c:if test="${qList==2}">
-	<div class="col-md-4" style=" text-align: center; background-image:url('resources/img/noLouie.png');">
+	<div class="col-xs-6 col-md-4" style=" text-align: center; background-image:url('resources/img/noLouie.png');">
 	<br/><br/><br/>
 	<h1><span class="glyphicon glyphicon-remove"></span> No Louie</h1>
 	<br/><br/><br/>
