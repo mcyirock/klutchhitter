@@ -87,9 +87,8 @@
                             <li><a href="#home">Home</a></li>
                             <li><a href="#about">About</a></li>
                             <li><a href="#team">Team</a></li>
-                            <li><a href="#services">Services</a></li>
+                            <li><a href="#services">Things</a></li>
                             <li><a href="#work">Work</a></li>
-                            <li><a href="#pricing">Pricing</a></li>
                             <li><a href="#blog">Blog</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>
@@ -111,7 +110,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center wow animated fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
                         <p class="lead margin-btm-30">
-                            I am a software engineer, a father with a lovely wife and a daughter. Love this industry, love people, love Music, love pets, and love Life.
+                            I am a software developer, a father with a lovely wife and a daughter. Love this industry, love people, love music, love pets, and love life.
                         </p>
                     </div>
                 </div>
@@ -119,64 +118,32 @@
                     <div class="col-md-3 margin-btm-30">
                         <div class="service-box wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="300ms">
                             <i class="fa fa-users"></i>
-                            <h3>Customers Support</h3>
+                            <h3>Love Java</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim.</p>
                         </div>
                     </div><!--service col end-->
                     <div class="col-md-3 margin-btm-30">
                         <div class="service-box wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="400ms">
                             <i class="fa fa-desktop"></i>
-                            <h3>Fully responsive</h3>
+                            <h3>Love English</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim.</p>
                         </div>
                     </div><!--service col end-->
                     <div class="col-md-3 margin-btm-30">
                         <div class="service-box wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="500ms">
                             <i class="fa fa-image"></i>
-                            <h3>Web design</h3>
+                            <h3>Love Web</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim.</p>
                         </div>
                     </div><!--service col end-->
                     <div class="col-md-3 margin-btm-30">
                         <div class="service-box wow animated fadeInUp"  data-wow-duration="700ms" data-wow-delay="600ms">
                             <i class="fa fa-crop"></i>
-                            <h3>Graphics Design</h3>
+                            <h3>Love Sports</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim.</p>
                         </div>
                     </div><!--service col end-->
                 </div>
-                <div class="divided-50"></div>
-                <div class="row goals-skills-wrap">
-                    <div class="col-md-6 margin-btm-30">
-                        <h2>Our Goals</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim.
-                        </p>
-
-                    </div><!--goals-->
-                    <div class="col-md-6 margin-btm-30">
-                        <h2>Our Skills</h2>
-                        <div class="skills-wrapper wow animated fadeInUp">
-                            <h3 class="heading-progress">Web Design <span class="pull-right">79%</span></h3>
-                            <div class="progress">
-                                <div class="progress-bar" style="width: 88%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="88" role="progressbar">
-                                </div>
-                            </div>
-                            <h3 class="heading-progress">Graphics Design <span class="pull-right">92%</span></h3>
-                            <div class="progress">
-                                <div class="progress-bar" style="width: 92%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="78" role="progressbar">
-                                </div>
-                            </div>
-                            <h3 class="heading-progress">Photoshop <span class="pull-right">83%</span></h3>
-                            <div class="progress">
-                                <div class="progress-bar" style="width: 83%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="82" role="progressbar">
-                                </div>
-                            </div>                    
-                        </div>
-
-                    </div><!--goals-->
-                </div>
-            </div>
         </section><!--about section end-->
         <section id="team" class="section-padding">
             <div class="container">
@@ -225,7 +192,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="center-heading text-center">
-                            <h2 class="wow animated bounceIn"  data-wow-duration="700ms" data-wow-delay="100ms">Testimonials</h2>
+                            <h2 class="wow animated bounceIn"  data-wow-duration="700ms" data-wow-delay="100ms">Quotations</h2>
                             <span class="icon"><i class="fa fa-quote-left"></i></span> 
                         </div><!--center heading-->
                     </div>
@@ -236,22 +203,26 @@
                             <div>
                                 <h4>
                                     <i class="fa fa-quote-left"></i>
-                                    Immediately received personal feedback from the creator of the theme. 
-                                    Incredibly fast, incredibly good. Great service!
+                                   	The aim of life is self-development. To realize one's nature perfectly - that is what each of us is here for.
+                                   	<i class="fa fa-quote-right"></i>
                                 </h4>
-                                <p>-Michael CC</p>
+                                <p>-Oscar Wilde</p>
                             </div><!--testimonials item like paragraph-->
                             <div>
                                 <h4>
-                                    <i class="fa fa-quote-left"></i>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia.
+                                    <i class="fa fa-quote-left"></i>
+                                    Whenever people agree with me I always feel I must be wrong.
+                                    <i class="fa fa-quote-right"></i>
                                 </h4>
-                                <p>-Rakesh sharma</p>
+                                <p>-Oscar Wilde</p>
                             </div><!--testimonials item like paragraph-->
                             <div>
                                 <h4>
-                                    <i class="fa fa-quote-left"></i>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc vehicula lacinia.
+                                    <i class="fa fa-quote-left"></i>
+                                    Life is far too important a thing ever to talk seriously about.
+                                    <i class="fa fa-quote-right"></i>
                                 </h4>
-                                <p>-Rakesh sharma</p>
+                                <p>-Oscar Wilde</p>
                             </div><!--testimonials item like paragraph-->
                         </div>
                     </div>
@@ -273,7 +244,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="center-heading text-center">
-                            <h2>Our Services</h2>
+                            <h2>My things</h2>
                             <span class="icon"><i class="fa fa-bars"></i></span> 
                         </div><!--center heading-->
                     </div>
@@ -288,7 +259,7 @@
                             </div><!--service-icon col-->
                             <div class="col-md-10">
                                 <div class="service-info">
-                                    <h4>Web Design</h4>
+                                    <h4>Java</h4>
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim.
                                     </p>
@@ -305,7 +276,7 @@
                             </div><!--service-icon col-->
                             <div class="col-md-10">
                                 <div class="service-info">
-                                    <h4>Psd Design</h4>
+                                    <h4>English</h4>
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim.
                                     </p>
@@ -325,7 +296,7 @@
                             </div><!--service-icon col-->
                             <div class="col-md-10">
                                 <div class="service-info">
-                                    <h4>Klutch response</h4>
+                                    <h4>Music</h4>
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim.
                                     </p>
@@ -342,7 +313,7 @@
                             </div><!--service-icon col-->
                             <div class="col-md-10">
                                 <div class="service-info">
-                                    <h4>Fully responsive Design</h4>
+                                    <h4>Car</h4>
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper diam nec augue semper, in dignissim.
                                     </p>
@@ -358,7 +329,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="center-heading text-center">
-                            <h2 class=" wow animated bounceIn"  data-wow-duration="700ms" data-wow-delay="100ms">Portfolio</h2>
+                            <h2 class=" wow animated bounceIn"  data-wow-duration="700ms" data-wow-delay="100ms">Work</h2>
                             <span class="icon"><i class="fa fa-image"></i></span> 
                         </div><!--center heading-->
                     </div>
@@ -381,15 +352,13 @@
                                 <div class="work-detail">
                                     <h1>단어의 제왕</h1>
                                     <p>
-                                    	Compete for better score. 
+                                    	Compete with others. 
                                     </p>
                                     <p>
-                                        Memorize difficult words with fun.
+                                        Memorize English words with fun.
                                     </p>
-                                    <p>
-                                        We believe on our work.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    </p>
-                                    <p><strong>Cleant:</strong> Design_mylife</p>
+                                    
+                                    <p><strong>Fun Fact:</strong> Korean loves Competition</p>
                                     <p><strong>Skills:</strong> HTMl5 / CSS3 / Bootstrap3</p>
                                     <p><a href="http://54.199.152.48:8080/kov/" class="btn btn-dark">Visit Project</a></p>
                                 </div>
@@ -406,14 +375,12 @@
                                     	루이를 찾으세요.
                                     </p>
                                     <p>
-                                        루이를 찾으면 당신은 패자 입니다.
+                                      	  루이를 찾으면 당신은 패자 입니다.
                                     </p>
-                                    <p>
-                                        We believe on our work.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    </p>
-                                    <p><strong>Cleant:</strong> Design_mylife</p>
+                                    
+                                    <p><strong>Fun Fact:</strong> Louie</p>
                                     <p><strong>Skills:</strong> HTMl5 / CSS3 / Bootstrap3</p>
-                                    <p><a href="findLouie" class="btn btn-dark">Visit Project</a></p>
+                                    <p><a href="findLouieIntro" class="btn btn-dark">Visit Project</a></p>
                                 </div>
                             </div>
                         </div><!--testimonials item like paragraph-->
@@ -423,15 +390,10 @@
                                 <div class="work-detail">
                                     <h1>Swboard</h1>
                                     <p>
-                                        We believe on our work.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                        	소원보드
                                     </p>
-                                    <p>
-                                        We believe on our work.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    </p>
-                                    <p>
-                                        We believe on our work.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    </p>
-                                    <p><strong>Cleant:</strong> Design_mylife</p>
+                                   
+                                    <p><strong>Fun Fact:</strong> </p>
                                     <p><strong>Skills:</strong> HTMl5 / CSS3 / Bootstrap3</p>
                                     <p><a href="http://54.199.152.48:8080/SB/list" class="btn btn-dark">Visit Project</a></p>
                                 </div>
@@ -448,15 +410,9 @@
                                 <div class="work-detail">
                                     <h1>Kboard</h1>
                                     <p>
-                                        We believe on our work.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    </p>
-                                    <p>
-                                        We believe on our work.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    </p>
-                                    <p>
-                                        We believe on our work.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    </p>
-                                    <p><strong>Cleant:</strong> Design_mylife</p>
+                                        	K board for beta test
+                                    </p>                                 
+                                    <p><strong>Fun Fact:</strong> </p>
                                     <p><strong>Skills:</strong> HTMl5 / CSS3 / Bootstrap3</p>
                                     <p><a href="http://54.199.152.48:8080/kb/list" class="btn btn-dark">Visit Project</a></p>
                                 </div>
@@ -473,12 +429,12 @@
                             <li class="filter active" data-filter="all">all</li>
                             <li class="filter" data-filter="design">design</li>
                             <li class="filter" data-filter="html">HTML5</li>
-                            <li class="filter" data-filter="wordpress">Wordpress</li>
-                            <li class="filter" data-filter="seo">Seo</li>
+                            <li class="filter" data-filter="fun">fun</li>
+                            <li class="filter" data-filter="blog">blog</li>
                         </ul><!--.portfolio-filter nav-->
 
                         <div id="grid" class="row" style="       ">
-                            <div class="mix col-sm-4 design margin-btm-30">
+                            <div class="mix col-sm-4 fun margin-btm-30">
                                 <div class="item-img-wrap ">
                                     <img src="resources/img/work-1.png" class="img-responsive" alt="workimg">
                                     <div class="item-img-overlay">
@@ -489,7 +445,7 @@
                                 </div> <!--item img wrap-->
 
                             </div><!--work item-->
-                            <div class="mix  col-sm-4 html margin-btm-30">
+                            <div class="mix  col-sm-4 blog margin-btm-30">
                                 <div class="item-img-wrap ">
                                     <img src="resources/img/work-2.png" class="img-responsive" alt="workimg">
                                     <div class="item-img-overlay">
@@ -501,7 +457,7 @@
 
 
                             </div><!--work item-->
-                            <div class="mix col-sm-4 wordpress design margin-btm-30">
+                            <div class="mix col-sm-4 blog design margin-btm-30">
                                 <div class="item-img-wrap ">
                                     <img src="resources/img/work-3.png" class="img-responsive" alt="workimg">
                                     <div class="item-img-overlay">
@@ -513,7 +469,7 @@
 
 
                             </div><!--work item-->
-                            <div class="mix col-sm-4 seo margin-btm-30">
+                            <div class="mix col-sm-4 design margin-btm-30">
                                 <div class="item-img-wrap ">
                                     <img src="resources/img/work-8.png" class="img-responsive" alt="workimg">
                                     <div class="item-img-overlay">
@@ -537,7 +493,7 @@
 
 
                             </div><!--work item-->
-                            <div class="mix col-sm-4 html seo margin-btm-30">
+                            <div class="mix col-sm-4 html margin-btm-30">
                                 <div class="item-img-wrap ">
                                     <img src="resources/img/work-6.png" class="img-responsive" alt="workimg">
                                     <div class="item-img-overlay">
@@ -561,7 +517,7 @@
 
 
                             </div><!--work item-->
-                            <div class="mix col-sm-4 html wordpress margin-btm-30">
+                            <div class="mix col-sm-4 design fun margin-btm-30">
                                 <div class="item-img-wrap ">
                                     <img src="resources/img/work-4.png" class="img-responsive" alt="workimg">
                                     <div class="item-img-overlay">
@@ -572,7 +528,7 @@
                                 </div> <!--item img wrap-->
 
                             </div><!--work item-->
-                            <div class="mix col-sm-4 html wordpress margin-btm-30">
+                            <div class="mix col-sm-4 html margin-btm-30">
                                 <div class="item-img-wrap ">
                                     <img src="resources/img/work-9.png" class="img-responsive" alt="workimg">
                                     <div class="item-img-overlay">
@@ -595,19 +551,19 @@
                     <div class="col-md-4 margin-btm-30 text-center">
                         <div class="fact-inner">
                             <h1 class="counter">3450</h1>
-                            <h3>Projects Complete</h3>
+                            <h3>Dummy Numbers</h3>
                         </div>
                     </div><!--facts col-->
                       <div class="col-md-4 margin-btm-30 text-center">
                         <div class="fact-inner">
                             <h1><span class="counter">345</span>+</h1>
-                            <h3>Happy Clients</h3>
+                            <h3>Goes Up</h3>
                         </div>
                     </div><!--facts col-->
                        <div class="col-md-4 margin-btm-30 text-center">
                         <div class="fact-inner">
                             <h1><span class="counter">6000</span></h1>
-                            <h3>Working Hours</h3>
+                            <h3>And Stays</h3>
                         </div>
                     </div><!--facts col-->
                 </div>

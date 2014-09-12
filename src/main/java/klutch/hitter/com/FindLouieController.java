@@ -41,4 +41,10 @@ public class FindLouieController {
 		model.addAttribute("qList", qList);
 		return "louie/findLouie";
 	}
+	
+	@RequestMapping(value="/findLouieIntro", method=RequestMethod.GET)
+	public String findLouieIntro(Model model){	
+		
+		return "louie/findLouieIntro";
+	}
 }

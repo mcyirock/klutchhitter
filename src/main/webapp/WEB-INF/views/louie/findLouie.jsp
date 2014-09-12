@@ -13,27 +13,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<br/><br/><br/><br/>
-<div class="container">
 <c:forEach var="qList" items="${qList}" varStatus="vs">
 <c:if test="${qList==0 || qList==1}">
 	<a href="pickLouie?a=${vs.index }">
-	<div class="col-md-4" style="background-color: #5bc0de; text-align:center;">
+	<div class="col-xs-4" style="background-color: #5bc0de; text-align:center; border: 1px solid white">
 	<br/><br/><br/>
-	<h1><span class="glyphicon glyphicon-star"></span> Louie ${vs.count }</h1>
+	<h3><span class="glyphicon glyphicon-star"></span><br/>Louie<br/>${vs.count }<br/></h3>
 	<br/><br/><br/>
 	</div>
 	</a>
 </c:if>
 <c:if test="${qList==2}">
-	<div class="col-md-4" style=" text-align: center; background-image:url('resources/img/noLouie.png');">
+	<div class="col-xs-4" style=" text-align: center; background-color: #f0ad4e; border: 1px solid white">
 	<br/><br/><br/>
-	<h1><span class="glyphicon glyphicon-remove"></span> No Louie</h1>
+	<h3><span class="glyphicon glyphicon-remove"></span><br/>No<br/>Louie<br/></h3>
 	<br/><br/><br/>
 	</div>
-<!-- 	background-color: #f0ad4e -->
 </c:if>
 </c:forEach>
-</div>
 </body>
 </html>
