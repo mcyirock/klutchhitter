@@ -24,13 +24,13 @@
             <value>com.mysql.jdbc.Driver</value>
         </property>
         <property name="url">
-            <value>jdbc:mysql://54.199.152.48:3306/cide</value>
+            <value>jdbc:mysql://199.199.199.199:3306/cide</value>
         </property>
         <property name="username">
-            <value>kay</value>
+            <value>fff</value>
         </property>
         <property name="password">
-            <value>292513</value>
+            <value>fff</value>
         </property>
     </bean>
     
