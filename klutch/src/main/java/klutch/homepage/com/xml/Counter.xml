@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN" "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd"> 
+
+<mapper namespace="Counter">
+	<insert id="insertCnt" parameterType="CounterVO">
+		INSERT INTO
+			counter
+		(
+			ip			,
+			datetime	
+		)
+		VALUES
+		(
+			#{ip}		,
+			now()
+		)
+	</insert>
+	
+	<select id="getLastPK" resultType="Integer">
+		SELECT
+			max(cnt_idx)
+		FROM
+			counter
+	</select>
+</mapper>
