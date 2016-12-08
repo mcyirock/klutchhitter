@@ -51,11 +51,7 @@ public class HomeController {
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String homeByRoot(Locale locale, Model model, HttpServletRequest request) {
-		cs.insertCnt(request);
-		int cnt = cs.getTotalCnt();
-		model.addAttribute("totalCnt", cnt);
-		model.addAttribute("ip", request.getRemoteAddr());
-		return "home";
+		return "redirect:/PIX/ULC/";
 	}
 	
 	@RequestMapping(value="/home/main", method=RequestMethod.GET)
